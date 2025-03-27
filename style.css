@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #202020;
+    color: #f0f0f0;
+    line-height: 1.6;
+    font-family: "Audiowide", sans-serif;
+}
+
+header {
+    color: white;
+    padding: 16px;
+}
+
+.header_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.logo {
+    width: 43%;
+}
+
+.header_title {
+    font-size: 30px;
+}
+
+.header_nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    list-style: none;;
+}
+
+.header_nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav_container {
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    gap: 20px;
+    flex-direction: column;
+}
+
+.header_search {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    align-items: center;
+    gap: 10px;
+}
+.header_search input {
+    width: 1002px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-image: url("../images/search.png");
+    background-repeat: no-repeat;
+    background-position: left 10px center;
+    background-size: 20px;
+    padding-left: 35px;
+}
+.random{
+text-decoration: none;
+color: white;
+}
